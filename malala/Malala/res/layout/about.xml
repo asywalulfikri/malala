@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#3C4745"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:text="Aplikasi Malala Adalah Aplikasi Pariwisata Sumatera Barat.Aplikasi ini Menampilkan Informasi mengenai Apa saja Tempat Wisata dan Kuliner di Sumatera Barat . Aplikasi ini merupakan syarat  untuk menamatkan pendidikan di politeknik Negeri Padang. Diharapkan dengan adanya aplikasi ini bisa membantu wisatawan dalam mengenali pariwisata Sumatera Barat. Aplikasi ini memang belum lengkap karena masih banyak pariwisata Sumatera Barat yang belum Di tampilkan.  
+        			
+        			
+        			
+        			
+        			
+        			
+        			
+        			
+        			"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="TENTANG MALALA"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+</RelativeLayout>

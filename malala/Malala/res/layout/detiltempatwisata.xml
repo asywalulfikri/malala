@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView 
+    android:id="@+id/widget123"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation = "vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+ <LinearLayout 
+     android:id = "@+id/widget1233"
+     android:layout_width="fill_parent"
+     android:layout_height="match_parent"
+  	 android:layout_marginLeft="20dp"
+  	 android:layout_marginRight="10dp"
+  	 
+     android:orientation="vertical" >
+
+     <ImageView
+         android:id="@+id/fototempatwisatadetail"
+         android:layout_width="300dp"
+         android:layout_height="300dp"
+         android:layout_marginTop="1dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:src="@drawable/ic_launcher" />
+     
+     
+     
+
+      <ImageView
+        android:id="@+id/button_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_mapdetaill" />
+      
+      <TableLayout
+        android:id="@+id/widget125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+           <TableRow
+            android:id="@+id/widget126"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+         <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Wisata :"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+               
+        
+    
+
+      <TextView
+        android:id="@+id/nama_tempat_wisata_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+
+        <requestFocus />
+        
+        </TableRow>
+         <TableRow
+            android:id="@+id/widget127"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+              <TextView
+        android:id="@+id/lokasiii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi              :"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+   
+   
+    
+
+    <TextView
+        android:id="@+id/lokasi_tempat_wisata_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+          android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+    
+    </TableRow>
+    
+          <TableRow
+            android:id="@+id/widget12788"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+              <TextView
+        android:id="@+id/jarak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jarak               :"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+   
+   
+    
+
+    <TextView
+        android:id="@+id/Jarak_detil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+          android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+    
+    </TableRow>
+     <TableRow
+            android:id="@+id/widget127uy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+              <TextView
+        android:id="@+id/akses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akses               :"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+   
+   
+    
+
+    <TextView
+        android:id="@+id/Akses_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+          android:textSize="13sp"
+        android:textStyle="bold"
+        android:ems="10" />
+    
+    </TableRow>
+    </TableLayout>
+    
+    
+
+    <TextView
+        android:id="@+id/ketetrangan_detail_tempat_wisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="keterangan" />
+
+</LinearLayout>
+</ScrollView>
